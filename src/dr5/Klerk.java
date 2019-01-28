@@ -16,7 +16,7 @@ public class Klerk {
         cash = _cash;
         age = _age;
     }
-    public static void bolshe40 (Klerk[]arrKlerks) {
+    static void bolshe40 (Klerk[]arrKlerks) {
         for (Klerk x : arrKlerks) {
             if (x.age > 40) {
                 System.out.println(x.toString());
@@ -24,7 +24,7 @@ public class Klerk {
         }
     }
     public String toString() {
-        return "{" +
+        return "Klerk{" +
                 "fio='" + fio + '\'' +
                 ", rank='" + rank + '\'' +
                 ", email='" + email + '\'' +
